@@ -1,0 +1,30 @@
+{
+  "name": "formfield",
+  "version": "0.1.0",
+  "description": "Simple React-only component for input validations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "jsx src/formfield.jsx > index.js",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volodymyrlut/formfield.git"
+  },
+  "keywords": [
+    "react-component",
+    "input",
+    "form",
+    "validations"
+  ],
+  "author": "Volodymyr Lut for vertalab (vertalab.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/volodymyrlut/formfield/issues"
+  },
+  "homepage": "https://github.com/volodymyrlut/formfield#readme",
+  "devDependencies": {
+    "react-tools": "^0.13.3"
+  }
+}
